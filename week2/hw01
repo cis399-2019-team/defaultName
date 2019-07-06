@@ -1,6 +1,12 @@
-1.
+1. EC2 IDs & Private IPs
 
-i-0b41c232eabc69685, private IP 10.0.5.44
+Austin's:
+	~ i-0b41c232eabc69685
+	~ 10.0.5.44
+
+Henzi's:
+	~ i-06e909ea13daeda7f
+	~ 10.0.5.66
 
 2. 
 
@@ -662,7 +668,7 @@ xz-utils/bionic,now 5.2.2-1.3 amd64 [installed,automatic]
 zerofree/bionic,now 1.0.4-1 amd64 [installed,automatic]
 zlib1g/bionic,now 1:1.2.11.dfsg-0ubuntu2 amd64 [installed,automatic]
 
-9.
+10.
 
 ubuntu@ip-10-0-5-44:~$ sudo apt-get upgrade
 Reading package lists... Done
