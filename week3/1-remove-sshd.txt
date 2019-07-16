@@ -1,4 +1,4 @@
-(1) ---------------------------- WITH sshd PACKAGE REMOVED ------------------------------------
+(1) ------------------------------- REMOVED SSHD PACKAGE --------------------------------------
 
 root@ip-10-0-5-201:/etc/puppet# apt remove openssh-server
 Reading package lists... Done
@@ -19,4 +19,4 @@ Info: Applying configuration version '1563247871'
 Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created
 Notice: Applied catalog in 3.84 seconds
 
--------------------------------- WITH sshd PACKAGE REMOVED ------------------------------------
+----------------------------------- REMOVED SSHD PACKAGE --------------------------------------
