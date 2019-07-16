@@ -1,0 +1,12 @@
+(2) ---------------------------------- STOPPED SSHD -------------------------------------------
+
+root@ip-10-0-5-201:/etc/puppet# systemctl stop sshd
+
+root@ip-10-0-5-201:/etc/puppet# puppet apply -t /etc/puppet/manifests/site.pp 
+Notice: Compiled catalog for ip-10-0-5-201.us-west-2.compute.internal in environment production in 0.38 seconds
+Info: Applying configuration version '1563248122'
+Notice: /Stage[main]/Sshd/Service[ssh]/ensure: ensure changed 'stopped' to 'running'
+Info: /Stage[main]/Sshd/Service[ssh]: Unscheduling refresh on Service[ssh]
+Notice: Applied catalog in 0.32 seconds
+
+-------------------------------------- STOPPED SSHD -------------------------------------------
