@@ -1,0 +1,19 @@
+2. Log messages showing accesses to a web page in your web server document root
+
+	root@ip-10-0-5-201:/var/log/apache2# cd
+
+	root@ip-10-0-5-201:~# cd /var/log/apache2/
+
+	root@ip-10-0-5-201:/var/log/apache2# ls -lu
+	total 32
+	-rw-r----- 1 root adm 12843 Jul 22 18:30 access.log
+	-rw-r----- 1 root adm  4220 Jul 20 23:15 access.log.1
+	-rw-r----- 1 root adm   681 Jul 22 06:25 error.log
+	-rw-r----- 1 root adm   414 Jul 20 23:15 error.log.1
+	-rw-r----- 1 root adm     0 Jul 20 23:15 other_vhosts_access.log
+
+	root@ip-10-0-5-201:/var/log/apache2# cat access.log
+	185.114.247.228 - - [22/Jul/2019:07:01:47 +0000] "GET / HTTP/1.1" 200 11173 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+	109.94.119.194 - - [22/Jul/2019:09:49:38 +0000] "GET / HTTP/1.1" 200 11173 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+	5.188.210.101 - - [22/Jul/2019:10:03:51 +0000] "GET http://5.188.210.101/echo.php HTTP/1.1" 404 465 "https://www.google.com/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
+
