@@ -1,7 +1,5 @@
 2. Log messages showing accesses to a web page in your web server document root
 
-	root@ip-10-0-5-201:/var/log/apache2# cd
-
 	root@ip-10-0-5-201:~# cd /var/log/apache2/
 
 	root@ip-10-0-5-201:/var/log/apache2# ls -lu
