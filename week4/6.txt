@@ -1,0 +1,42 @@
+6. Puppet code you use to replicate content between your web server instances
+
+	root@ip-10-0-5-201:/etc/puppet# cat code/modules/apache2/manifests/init.pp 
+	class apache2 {
+		package { "apache2":
+			ensure	 => installed,
+		}
+
+		file { "/etc/apache2/apache2.conf":
+			ensure	=> present,
+			mode	=> '444',
+			owner	=> 'root',
+			group	=> 'root',
+			source	=> "puppet:///modules/apache/apache2.conf",
+			require	=> Package["apache2"],
+		}
+
+		file { "/var/www/html":
+			ensure	=> directory,
+			recurse	=> true,
+			mode	=> '444',
+			owner	=> 'root',
+			group	=> 'root',
+			source	=> "puppet:///modules/apache2/html",
+			require	=> Package["apache2"],
+		}
+
+		service { "apache":
+			enable    => true,
+			ensure    => running,
+			subscribe => File["/etc/apache2/apache2.conf"],
+		}
+	}
+
+	root@ip-10-0-5-201:/etc/puppet# ls code/modules/apache2/files/
+	apache2.conf  html
+
+	root@ip-10-0-5-201:/etc/puppet# ls -lu code/modules/apache2/files/
+	total 12
+	-rw-r--r-- 1 root root 7224 Jul 22 18:19 apache2.conf
+	drwxr-xr-x 2 root root 4096 Jul 22 18:27 html
+
