@@ -695,7 +695,6 @@
 	Fetched 2458 kB in 1s (2594 kB/s)                         
 	Reading package lists... Done
 
-
 	ubuntu@ip-10-0-5-66:~$ sudo apt-get upgrade
 	Reading package lists... Done
 	Building dependency tree       
