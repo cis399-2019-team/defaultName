@@ -2,11 +2,11 @@
 
 ### 1. URLs
 
-	Henzi:
-		ec2-54-190-27-30.us-west-2.compute.amazonaws.com
+- [] Henzi:
+	ec2-54-190-27-30.us-west-2.compute.amazonaws.com
 		
-	Austin:
-		ec2-34-223-5-208.us-west-2.compute.amazonaws.com
+- [] Austin:
+	ec2-34-223-5-208.us-west-2.compute.amazonaws.com
 
 
 ### 2. Log messages showing accesses to your web page in your web server document root
@@ -28,7 +28,7 @@
 
 ### 3. Domain name associated with load balancer
 
-	defaultName-1618430243.us-west-2.elb.amazonaws.com
+- defaultName-1618430243.us-west-2.elb.amazonaws.com
 
 
 ### 4. Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
@@ -42,7 +42,7 @@
 
 ### 5. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
 
-	Henzi:
+- [] Henzi:
 		128.223.222.50 - - [23/Jul/2019:00:04:38 +0000] "GET / HTTP/1.1" 200 508 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15"
 		10.0.5.91 - - [23/Jul/2019:00:04:40 +0000] "GET / HTTP/1.1" 200 518 "-" "ELB-HealthChecker/1.0"
 		10.0.5.224 - - [23/Jul/2019:00:04:40 +0000] "GET / HTTP/1.1" 200 518 "-" "ELB-HealthChecker/1.0"
@@ -51,7 +51,7 @@
 		10.0.5.224 - - [23/Jul/2019:00:05:12 +0000] "-" 408 0 "-" "-"
 		10.0.5.91 - - [23/Jul/2019:00:05:22 +0000] "-" 408 0 "-" "-"
 
-	Austin:
+- [] Austin:
 		10.0.5.80 - - [22/Jul/2019:20:19:22 +0000] "GET /index.html HTTP/1.1" 200 11229 "-" "ELB-HealthChecker/1.0"
 		10.0.5.82 - - [22/Jul/2019:20:19:22 +0000] "GET /index.html HTTP/1.1" 200 11229 "-" "ELB-HealthChecker/1.0"
 		10.0.5.80 - - [22/Jul/2019:20:19:45 +0000] "-" 408 0 "-" "-"
