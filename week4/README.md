@@ -1,6 +1,6 @@
 # Assignment for Week 4
 
-## 1. URLs
+### 1. URLs
 
 		Henzi:
 			ec2-54-190-27-30.us-west-2.compute.amazonaws.com
@@ -26,12 +26,12 @@
 		128.223.222.50 - - [23/Jul/2019:00:00:00 +0000] "GET / HTTP/1.1" 200 508 "-" "Mozilla/5.0 (M    acintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari    /605.1.15"
 
 
-3. Domain name associated with load balancer
+### 3. Domain name associated with load balancer
 
 		defaultName-1618430243.us-west-2.elb.amazonaws.com
 
 
-4. Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
+### 4. Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
 
 		- [x] With *one* instance shut down
 			- The load balancer still provides access to our webpage
@@ -40,7 +40,7 @@
 			- The load balancer
 			
 
-5. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
+### 5. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
 
 		Henzi:
 			128.223.222.50 - - [23/Jul/2019:00:04:38 +0000] "GET / HTTP/1.1" 200 508 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15"
@@ -64,7 +64,7 @@
 			10.0.5.82 - - [22/Jul/2019:20:20:36 +0000] "-" 408 0 "-" "-"
 
 
-6. Puppet code you use to replicate content between your web server instances
+### 6. Puppet code you use to replicate content between your web server instances
 
 		root@ip-10-0-5-201:/etc/puppet# cat code/modules/apache2/manifests/init.pp 
 		class apache2 {
