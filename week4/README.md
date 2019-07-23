@@ -1,4 +1,4 @@
-#Assignment for Week 4
+#Assignment for Week 4#
 
 1. URLs
 
@@ -31,8 +31,14 @@
 		defaultName-1618430243.us-west-2.elb.amazonaws.com
 
 
-4.
+4. Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
 
+		- [x] With *one* instance shut down
+			- The load balancer still provides access to our webpage
+
+		- [x] With *both* instances shut down
+			- The load balancer
+			
 
 5. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
 
