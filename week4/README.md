@@ -35,12 +35,15 @@
 
 ### 4. Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
 
+- [x] With *both* instances serving
+	- The load balancer provides access to our webpage
+
 - [x] With *one* instance shut down
 	- The load balancer still provides access to our webpage
 
 - [x] With *both* instances shut down
-	- The load balancer hangs and fails to provide access to our webpage
-			
+	- The load balancer fails to provide access to our webpage resulting in a blank page
+
 
 ### 5. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
 
@@ -70,43 +73,15 @@
 
 ### 6. Puppet code you use to replicate content between your web server instances
 
-	root@ip-10-0-5-201:/etc/puppet# cat code/modules/apache2/manifests/init.pp 
-	class apache2 {
-		package { "apache2":
-			ensure	 => installed,
-		}
-		
-		file { "/etc/apache2/apache2.conf":
-			ensure	=> present,
-			mode	=> '444',
-			owner	=> 'root',
-			group	=> 'root',
-			source	=> "puppet:///modules/apache/apache2.conf",
-			require	=> Package["apache2"],
-		}
+Partial puppet code is from `/etc/puppet/code/modules/apache2/manifests/init.pp`
 
-		file { "/var/www/html":
-			ensure	=> directory,
-			recurse	=> true,
-			mode	=> '444',
-			owner	=> 'root',
-			group	=> 'root',
-			source	=> "puppet:///modules/apache2/html",
-			require	=> Package["apache2"],
-		}
-
-		service { "apache":
-			enable    => true,
-			ensure    => running,
-			subscribe => File["/etc/apache2/apache2.conf"],
-		}
+	file { "/var/www/html":
+		ensure	=> directory,
+		recurse	=> true,
+		mode	=> '444',
+		owner	=> 'root',
+		group	=> 'root',
+		source	=> "puppet:///modules/apache2/html",
+		require	=> Package["apache2"],
 	}
-
-	root@ip-10-0-5-201:/etc/puppet# ls code/modules/apache2/files/
-	apache2.conf  html
-
-	root@ip-10-0-5-201:/etc/puppet# ls -lu code/modules/apache2/files/
-	total 12
-	-rw-r--r-- 1 root root 7224 Jul 22 18:19 apache2.conf
-	drwxr-xr-x 2 root root 4096 Jul 22 18:27 html
 
