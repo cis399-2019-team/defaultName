@@ -1,6 +1,6 @@
 # Assignment for Week 4
 
-1. URLs
+## 1. URLs
 
 		Henzi:
 			ec2-54-190-27-30.us-west-2.compute.amazonaws.com
@@ -9,7 +9,7 @@
 			ec2-34-223-5-208.us-west-2.compute.amazonaws.com
 
 
-2. Log messages showing accesses to your web page in your web server document root
+### 2. Log messages showing accesses to your web page in your web server document root
 
 		root@ip-10-0-5-201:~# cd /var/log/apache2/
 		
