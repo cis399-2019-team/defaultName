@@ -85,3 +85,12 @@ Partial puppet code is from `/etc/puppet/code/modules/apache2/manifests/init.pp`
 		require	=> Package["apache2"],
 	}
 
+Additional files in subdirectory `/etc/puppet/code/modules/apache2/files` to ensure synchronization to `/var/www/html` as stated in above code.
+
+	root@ip-10-0-5-201:/etc/puppet# cd code/modules/apache2/files/
+
+	root@ip-10-0-5-201:/etc/puppet/code/modules/apache2/files# ls -lu
+	total 12
+	-rw-r--r-- 1 root root 7224 Jul 22 18:19 apache2.conf
+	drwxr-xr-x 2 root root 4096 Jul 23 02:09 html
+
