@@ -2,8 +2,8 @@
 
 ### 1. URLs
 
-		Henzi:
-			ec2-54-190-27-30.us-west-2.compute.amazonaws.com
+	Henzi:
+		ec2-54-190-27-30.us-west-2.compute.amazonaws.com
 		
 		Austin:
 			ec2-34-223-5-208.us-west-2.compute.amazonaws.com
@@ -33,11 +33,11 @@
 
 ### 4. Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
 
-		- [x] With *one* instance shut down
-			- The load balancer still provides access to our webpage
+	- [x] With *one* instance shut down
+		- The load balancer still provides access to our webpage
 
-		- [x] With *both* instances shut down
-			- The load balancer
+	- [x] With *both* instances shut down
+		- The load balancer
 			
 
 ### 5. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
