@@ -7,8 +7,8 @@
 	- 10.0.5.44
 
 - Henzi:
-	~ i-06e909ea13daeda7f
-	~ 10.0.5.66
+	- i-06e909ea13daeda7f
+	- 10.0.5.66
 
 
 ### 2. Describe how you find the public IP address of a given instance using the EC2 console
