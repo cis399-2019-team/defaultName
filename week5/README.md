@@ -4,13 +4,14 @@
 ### Account Log-ins:
 - James
 
-	Jul 29 01:53:14 ip-10-0-5-201 sshd[25784]: Accepted publickey for james from 71.236.241.67 port 60805 ssh2: RSA SHA256:xoLqHmAN5f/zK4aRLzm05qfKlLXvXIQd7hQi3XJ6nAQ
-	Jul 29 01:53:14 ip-10-0-5-201 sshd[25784]: pam_unix(sshd:session): session opened for user james by (uid=0)
-	Jul 29 01:53:14 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user james by (uid=0)
-	Jul 29 01:53:14 ip-10-0-5-201 systemd-logind[817]: New session 4121 of user james.
-	Jul 29 01:53:25 ip-10-0-5-201 sshd[25877]: Received disconnect from 71.236.241.67 port 60805:11: disconnected by user
-	Jul 29 01:53:25 ip-10-0-5-201 sshd[25877]: Disconnected from user james 71.236.241.67 port 60805
-	Jul 29 01:53:25 ip-10-0-5-201 sshd[25784]: pam_unix(sshd:session): session closed for user james
+		Jul 29 01:53:14 ip-10-0-5-201 sshd[25784]: Accepted publickey for james from 71.236.241.67 port 60805 ssh2: RSA SHA256:xoLqHmAN5f/zK4aRLzm05qfKlLXvXIQd7hQi3XJ6nAQ
+		Jul 29 01:53:14 ip-10-0-5-201 sshd[25784]: pam_unix(sshd:session): session opened for user james by (uid=0)
+		Jul 29 01:53:14 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user james by (uid=0)
+		Jul 29 01:53:14 ip-10-0-5-201 systemd-logind[817]: New session 4121 of user james.
+		Jul 29 01:53:25 ip-10-0-5-201 sshd[25877]: Received disconnect from 71.236.241.67 port 60805:11: disconnected by user
+		Jul 29 01:53:25 ip-10-0-5-201 sshd[25877]: Disconnected from user james 71.236.241.67 port 60805
+		Jul 29 01:53:25 ip-10-0-5-201 sshd[25784]: pam_unix(sshd:session): session closed for user james
+
 
 - Jerry
 
@@ -18,6 +19,7 @@
 		Jul 29 01:15:35 ip-10-0-5-201 sshd[25400]: pam_unix(sshd:session): session opened for user jerry by (uid=0)
 		Jul 29 01:15:35 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user jerry by (uid=0)
 		Jul 29 01:15:35 ip-10-0-5-201 systemd-logind[817]: New session 4111 of user jerry.
+
 
 - Owen
 
@@ -28,6 +30,7 @@
 		Jul 29 01:06:35 ip-10-0-5-201 sshd[25272]: Received disconnect from 73.240.77.226 port 62339:11: disconnected by user
 		Jul 29 01:06:35 ip-10-0-5-201 sshd[25272]: Disconnected from user owen 73.240.77.226 port 62339
 		Jul 29 01:06:35 ip-10-0-5-201 sshd[25157]: pam_unix(sshd:session): session closed for user owen
+
 
 - Lucas
 
