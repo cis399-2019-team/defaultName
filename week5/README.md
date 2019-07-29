@@ -43,6 +43,42 @@
 		Jul 29 00:16:19 ip-10-0-5-201 sshd[24227]: pam_unix(sshd:session): session closed for user lucas
 
 
+- Devin
+
+		Jul 29 18:35:11 ip-10-0-5-201 sshd[3923]: Accepted publickey for devin from 24.22.126.100 port 49608 ssh2: RSA SHA256:xhFFrD0LwaB1Qx1CNUrCqG+p9y6sQ6rBAo7oTAw4how
+		Jul 29 18:35:11 ip-10-0-5-201 sshd[3923]: pam_unix(sshd:session): session opened for user devin by (uid=0)
+		Jul 29 18:35:11 ip-10-0-5-201 systemd-logind[817]: New session 4349 of user devin.
+		Jul 29 18:35:11 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user devin by (uid=0)
+		Jul 29 18:36:21 ip-10-0-5-201 sshd[4044]: Received disconnect from 24.22.126.100 port 49608:11: disconnected by user
+		Jul 29 18:36:21 ip-10-0-5-201 sshd[4044]: Disconnected from user devin 24.22.126.100 port 49608
+		Jul 29 18:36:21 ip-10-0-5-201 sshd[3923]: pam_unix(sshd:session): session closed for user devin
+
+
+- Mapu
+
+		Jul 29 03:01:17 ip-10-0-5-201 sshd[26697]: Accepted publickey for mapu from 67.189.1.10 port 54086 ssh2: RSA SHA256:Ghv8MxJ+tLn6odV+cGRzMlroV30m6aBwBbsxVsMMKEw
+		Jul 29 03:01:17 ip-10-0-5-201 sshd[26697]: pam_unix(sshd:session): session opened for user mapu by (uid=0)
+		Jul 29 03:01:17 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user mapu by (uid=0)
+		Jul 29 03:01:17 ip-10-0-5-201 systemd-logind[817]: New session 4138 of user mapu.
+		Jul 29 03:02:04 ip-10-0-5-201 sshd[26812]: Disconnected from user mapu 67.189.1.10 port 54086
+		Jul 29 03:02:04 ip-10-0-5-201 sshd[26697]: pam_unix(sshd:session): session closed for user mapu
+
+
+- Keir
+
+		Jul 29 06:03:19 ip-10-0-5-201 sshd[28767]: Accepted publickey for keir from 24.20.207.204 port 53466 ssh2: RSA SHA256:cyzN+W4Xj985ZuASHWBXoSW50OJkDDVGmKzJLJ+EsVk
+		Jul 29 06:03:19 ip-10-0-5-201 sshd[28767]: pam_unix(sshd:session): session opened for user keir by (uid=0)
+		Jul 29 06:03:19 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user keir by (uid=0)
+		Jul 29 06:03:19 ip-10-0-5-201 systemd-logind[817]: New session 4181 of user keir.
+		Jul 29 06:03:23 ip-10-0-5-201 sshd[28767]: pam_unix(sshd:session): session closed for user keir
+
+
+- Steve
+
+		Jul 28 23:40:03 ip-10-0-5-201 useradd[23807]: new group: name=stevev, GID=1001
+		Jul 28 23:40:03 ip-10-0-5-201 useradd[23807]: new user: name=stevev, UID=1001, GID=1001, home=/homestevev, shell=/bin/sh
+
+
 
 ### Henzi's Report:
 - [x] Aquabee
@@ -50,7 +86,7 @@
 - [x] Team 9
 - [x] Team Garbage Bin
 - [x] Team Rocket
-- [ ] Team 1
+- [x] Team 1
 
 
 ### Austin's Report:
