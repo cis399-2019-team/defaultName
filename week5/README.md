@@ -79,6 +79,15 @@
 		Jul 28 23:40:03 ip-10-0-5-201 useradd[23807]: new user: name=stevev, UID=1001, GID=1001, home=/homestevev, shell=/bin/sh
 
 
+- Rico
+
+		Jul 29 18:53:59 ip-10-0-5-201 sshd[4196]: Connection closed by authenticating user rico 216.106.151.72 port 60296 [preauth]
+
+
+- Kylie
+
+		Jul 29 18:57:20 ip-10-0-5-201 sshd[4239]: Connection closed by authenticating user kylie 216.106.151.176 port 52307 [preauth]
+
 
 ### Henzi's Report:
 - [x] Aquabee
