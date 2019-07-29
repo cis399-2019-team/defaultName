@@ -50,7 +50,7 @@
 - [x] Team 9
 - [x] Team Garbage Bin
 - [x] Team Rocket
-
+- [ ] Team 1
 
 
 ### Austin's Report:
@@ -59,4 +59,5 @@
 - [x] Team 9
 - [ ] Team Garbage Bin
 - [x] Team Rocket
+- [ ] Team 1
 

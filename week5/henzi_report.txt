@@ -1,0 +1,9 @@
+Accounts:
+
+	~ Aquabee: Successful account creation and log-in
+	~ MapMoney: Successful account creation and log-in
+	~ Team 9: Successful account creation and log-in
+	~ Team Garbage Bin: Successful account creation and log-in
+	~ Team Rocket: Successful account creation and log-in
+	~ Team 1: Unsuccessful connection and log-in to account
+
