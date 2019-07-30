@@ -79,9 +79,16 @@
 		Jul 28 23:40:03 ip-10-0-5-201 useradd[23807]: new user: name=stevev, UID=1001, GID=1001, home=/homestevev, shell=/bin/sh
 
 
-- Rico
+- Rico (Updated 10:15, 30 July 2019)
 
 		Jul 29 18:53:59 ip-10-0-5-201 sshd[4196]: Connection closed by authenticating user rico 216.106.151.72 port 60296 [preauth]
+
+		Jul 30 15:34:41 ip-10-0-5-201 sshd[22081]: Accepted publickey for rico from 128.223.222.50 port 40312 ssh2: RSA SHA256:QJ9qijOmZuR4dM1jh4FYNFvFLN2MmD6Nn0RxMffsKPY
+		Jul 30 15:34:41 ip-10-0-5-201 sshd[22081]: pam_unix(sshd:session): session opened for user rico by (uid=0)
+		Jul 30 15:34:41 ip-10-0-5-201 systemd-logind[817]: New session 4629 of user rico.
+		Jul 30 15:34:41 ip-10-0-5-201 systemd: pam_unix(systemd-user:session): session opened for user rico by (uid=0)
+		Jul 30 15:50:04 ip-10-0-5-201 sshd[22199]: Disconnected from user rico 128.223.222.50 port 40312
+		Jul 30 15:50:04 ip-10-0-5-201 sshd[22081]: pam_unix(sshd:session): session closed for user rico
 
 
 - Kylie
@@ -97,6 +104,14 @@
 - [x] Team Rocket
 - [x] Team 1
 
+Team | Successful Account
+---- | ------------------
+Aquabee | Yes
+MapMoney | Yes
+Team 9 | Yes
+Team Garbage Bin | Yes
+Team Rocket | Yes
+Team 1 | Yes
 
 ### Austin's Report:
 - [x] Auqabee
