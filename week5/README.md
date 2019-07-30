@@ -96,6 +96,13 @@
 		Jul 29 18:57:20 ip-10-0-5-201 sshd[4239]: Connection closed by authenticating user kylie 216.106.151.176 port 52307 [preauth]
 
 
+- Manhim
+
+		Jul 30 18:01:01 ip-10-0-5-201 useradd[23773]: new group: name=manhim, GID=1013
+		Jul 30 18:01:01 ip-10-0-5-201 useradd[23773]: new user: name=manhim, UID=1013, GID=1013, home=/homemanhim, shell=/bin/bash
+
+
+
 ### Henzi's Report:
 - [x] Aquabee
 - [x] MapMoney
