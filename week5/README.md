@@ -91,7 +91,7 @@
 		Jul 30 15:50:04 ip-10-0-5-201 sshd[22081]: pam_unix(sshd:session): session closed for user rico
 
 
-- Kylie
+- Kylie (Unable to reach her to confirm that the issue is resolved)
 
 		Jul 29 18:57:20 ip-10-0-5-201 sshd[4239]: Connection closed by authenticating user kylie 216.106.151.176 port 52307 [preauth]
 
