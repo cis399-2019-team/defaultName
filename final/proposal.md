@@ -3,7 +3,7 @@
 
 ### General Description
 
-- Implement, manage, and create mail accounts for each individual user using chron and puppet logic. 
+- Implement, manage, and create mail accounts for each individual user using chron and puppet jobs
 
 
 ### Goals
